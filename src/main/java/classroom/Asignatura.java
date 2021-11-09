@@ -9,15 +9,14 @@ public class Asignatura {
 
     Asignatura() {
         this("Sin nombre");
-        this(0);
-    }
-
-    Asignatura(int codigoInterno) {
-        this("Sin nombre", codigoInterno, 0);
     }
 
     Asignatura(int codigoExterno) {
-        this("Sin nombre", 0, codigoExterno);
+        this("Sin nombre", 0,codigoExterno);
+    }
+
+    Asignatura(String nombre) {
+        this(nombre, 0, 0);
     }
 
     Asignatura(String nombre) {
