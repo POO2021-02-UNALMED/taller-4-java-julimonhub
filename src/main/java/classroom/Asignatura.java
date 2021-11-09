@@ -1,4 +1,4 @@
-package classroom;
+pacckage classroom;
 
 public class Asignatura {
 
