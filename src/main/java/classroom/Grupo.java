@@ -1,4 +1,4 @@
-hola :) package classroom;
+package classroom;
 
 public class Grupo {
 

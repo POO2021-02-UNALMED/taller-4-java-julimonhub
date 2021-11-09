@@ -1,4 +1,4 @@
-hola :9 package classroom;
+package classroom;
 
 public class Persona {
 

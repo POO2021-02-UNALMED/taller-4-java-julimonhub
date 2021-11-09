@@ -1,4 +1,4 @@
-hola :) pacckage classroom;
+pacckage classroom;
 
 public class Asignatura {
 
