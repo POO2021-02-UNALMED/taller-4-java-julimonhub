@@ -25,35 +25,26 @@ public class Asignatura {
         this.codigoExterno=codigoExterno;
     }
 
-    Asignatura(String nombre, int codigoInterno, int codigoExterno) {
-        this.nombre = nombre;
-        this.codigoInterno = codigoInterno;
-        this.codigoExterno = codigoExterno;
-    }
-
     void cambiarDatos(int codigoInterno, int codigoExterno, String nombre) {
         this.codigoInterno = codigoInterno;
         this.codigoExterno = codigoExterno;
         this.nombre = nombre;
     }
 
-    void cambiarDatos(int codigoInterno) {
-        this.codigoInterno = codigoInterno;
-    }
-
     void cambiarDatos(int codigoExterno) {
-        this.codigoExterno = codigoExterno;
+        this.codigoExterno= codigoExterno;
     }
 
     void cambiarDatos(String nombre) {
-        this.nombre = nombre;
+        this.nombre= nombre;
     }
 
     public void setCodigoInterno(int codigoInterno) {
         this.codigoInterno = codigoInterno;
     }
-    
-    public void setCodigoInterno(double codigoInterno) {
-        this.codigoInterno = (int) codigoInterno;
+
+    publico void setCodigoInterno(double codigoInterno) {
+        this.codigoInterno = (int)codigoInterno;
     }
-}
+ }
+    
